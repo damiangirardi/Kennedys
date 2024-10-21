@@ -1,0 +1,233 @@
+.puffPastryWrappedApplesStiIcon {
+  width: 711px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.xIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loginSignup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.enterYourEmail {
+  margin: 0;
+}
+.enterYourEmailContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.inputFields,
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  font-size: var(--title-r-size);
+}
+.inputFields {
+  gap: var(--gap-5xs);
+}
+.label,
+.or {
+  position: relative;
+}
+.or {
+  align-self: stretch;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.label {
+  font-size: var(--text-s-light-size);
+  letter-spacing: 0.01em;
+  line-height: 14px;
+  font-family: var(--text-s-light);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 127px;
+}
+.buttons,
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-9xs);
+}
+.buttons {
+  cursor: pointer;
+  border: 1px solid var(--black);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: var(--white);
+  align-self: stretch;
+  height: 44px;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.label1 {
+  position: relative;
+  font-size: var(--text-s-light-size);
+  letter-spacing: 0.01em;
+  line-height: 14px;
+  font-family: var(--text-s-light);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 118px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 var(--padding-9xs);
+}
+.label2 {
+  position: relative;
+  font-size: var(--text-s-light-size);
+  letter-spacing: 0.01em;
+  line-height: 14px;
+  font-family: var(--text-s-light);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 38px 0 var(--padding-9xs);
+}
+.socials1 {
+  gap: var(--gap-xs);
+}
+.form,
+.socials,
+.socials1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.terms {
+  text-decoration: underline;
+  color: var(--grey-black);
+}
+.bySigningUpContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--grey-500);
+}
+.account,
+.content,
+.loginsignup {
+  display: flex;
+  justify-content: flex-start;
+}
+.account {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-13xl) var(--padding-base) 0;
+  gap: var(--gap-29xl);
+}
+.content,
+.loginsignup {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-13xl) 0 var(--padding-21xl);
+  min-width: 332px;
+}
+.loginsignup {
+  width: 1318px;
+  position: relative;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-13xl) 0 0;
+  gap: 64px;
+  line-height: normal;
+  letter-spacing: normal;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--text-s-light);
+}
+@media screen and (max-width: 1225px) {
+  .enterYourEmailContainer {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .account {
+    gap: var(--gap-5xl);
+  }
+  .content {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .loginsignup {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .enterYourEmailContainer {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .loginsignup {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .puffPastryWrappedApplesStiIcon {
+    flex: 1;
+  }
+  .loginsignup {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

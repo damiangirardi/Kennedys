@@ -1,0 +1,748 @@
+.imageIcon,
+.teamInfo {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.teamInfo {
+  top: 307px;
+  background-color: var(--grey-200);
+  height: 1117px;
+}
+.imageIcon {
+  top: 109px;
+  height: 572px;
+  object-fit: cover;
+}
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem,
+.dropdownListItem1,
+.menuItems {
+  display: flex;
+  justify-content: flex-start;
+}
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--grey-lighter-150);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.menuItems {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu,
+.textForDescription {
+  position: absolute;
+  font-family: var(--text-medium-16-medium);
+  display: none;
+}
+.dropdownMenu {
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--black);
+}
+.textForDescription {
+  top: calc(50% - 2222.5px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-s-light-size);
+  color: var(--grey-main-500);
+  font-family: var(--text-medium-16-medium);
+}
+.realEstate1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 98%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.realEstateWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.realEstateInner {
+  position: absolute;
+  top: 329px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--title-l-size);
+}
+.meetOurTeam,
+.meetOurTeam1 {
+  margin: 0;
+  position: absolute;
+  top: 1470px;
+  left: 166px;
+  font-size: var(--title-xr-size);
+  letter-spacing: -0.02em;
+  line-height: 96%;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 1150px;
+}
+.meetOurTeam1 {
+  top: 2076px;
+}
+.groupChild {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconBrandFacebookColor,
+.iconLinkedin {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.vectorParent {
+  position: absolute;
+  top: 711px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.investmentParagraph {
+  position: absolute;
+  top: 863px;
+  left: calc(50% - 573px);
+  width: 1147px;
+  height: 116px;
+}
+.unlockingDoors {
+  margin: 0;
+}
+.kennedysGroupBrings,
+.unlockingDoorsToContainer {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.unlockingDoorsToContainer {
+  margin: 0;
+  width: 362px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.kennedysGroupBrings {
+  width: 1091px;
+  font-size: var(--title-xxs-size);
+  letter-spacing: 0.01em;
+  line-height: 28px;
+}
+.teamInfo1 {
+  position: absolute;
+  top: 898px;
+  left: calc(50% - 545px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.safeAndProsperous,
+.topLevelCommercial,
+.topQualityHospitality {
+  position: absolute;
+  top: 1452px;
+  left: 80px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--grey-black);
+  display: inline-block;
+  width: 332px;
+}
+.safeAndProsperous,
+.topQualityHospitality {
+  top: 1533px;
+  left: 436px;
+  width: 356px;
+}
+.safeAndProsperous {
+  top: 1439px;
+  left: 1030px;
+}
+.teamInfo3 {
+  position: absolute;
+  top: calc(50% - 721.5px);
+  left: 0;
+  background-color: var(--grey-200);
+  width: 1440px;
+  height: 341px;
+}
+.imageIcon1 {
+  width: 618px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.topNetworking {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourVastExperience {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.teamInfo4,
+.topNetworkingParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.topNetworkingParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 360px;
+}
+.teamInfo4 {
+  position: absolute;
+  top: 1662px;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-85xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.imageIcon2 {
+  width: 400px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.teamInfo5,
+.utterProfessionalismParent {
+  width: 521px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.teamInfo5 {
+  position: absolute;
+  top: 2375px;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-85xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.officeLocations,
+.officeLocations1 {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  background-color: var(--turquoise);
+  width: 1440px;
+  height: 253px;
+}
+.officeLocations1 {
+  top: 0;
+  background-color: var(--grey-black);
+}
+.concierge,
+.realEstate2,
+.villas {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.concierge,
+.realEstate2 {
+  width: 70px;
+  display: inline-block;
+}
+.realEstate2 {
+  width: 76px;
+  height: 22px;
+}
+.menu,
+.navigationLinks {
+  display: flex;
+  align-items: flex-start;
+}
+.menu {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.navigationLinks {
+  position: absolute;
+  top: 12px;
+  left: 85px;
+  width: 119px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.aboutUs,
+.careers,
+.contactUs {
+  width: 62px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+}
+.careers,
+.contactUs {
+  width: 54px;
+}
+.contactUs {
+  width: 75px;
+}
+.menu1 {
+  position: absolute;
+  top: 56px;
+  left: 280px;
+  width: 1068px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.dimarchouAggelouMetaxaContainer {
+  position: absolute;
+  top: 84px;
+  left: 580px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  width: 426px;
+}
+.athensOffice {
+  position: absolute;
+  top: 56px;
+  left: 580px;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.kennedysGroupVacation {
+  position: absolute;
+  top: 262px;
+  left: 68px;
+  font-size: var(--text-s-light-size);
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  color: var(--grey-black);
+  text-align: center;
+  display: inline-block;
+  width: 1280px;
+}
+.label {
+  width: 209px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+  display: inline-block;
+}
+.vectorIcon {
+  width: 5px;
+  position: relative;
+  height: 11px;
+  object-fit: contain;
+}
+.buttons {
+  position: absolute;
+  top: 67px;
+  left: calc(50% + 359px);
+  background-color: var(--color-darkturquoise);
+  border: 0.8px solid var(--white);
+  box-sizing: border-box;
+  width: 282px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-mini);
+  text-align: center;
+  color: var(--white);
+}
+.capa1Icon {
+  position: absolute;
+  top: 164px;
+  left: 1082px;
+  width: 280px;
+  height: 24px;
+  overflow: hidden;
+}
+.argirena84600,
+.mykonosOffice {
+  position: absolute;
+  top: 149px;
+  left: 580px;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.argirena84600 {
+  top: 179px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 451px;
+  height: 41px;
+}
+.officeLocationsParent {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  width: 1440px;
+  height: 295px;
+}
+.fullWhatsapp {
+  position: absolute;
+  bottom: 274px;
+  left: 1254px;
+  border-radius: var(--br-21xl);
+  background-color: var(--sand);
+  width: 84px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fullNoContainer,
+.groupParent {
+  position: absolute;
+  top: -39px;
+  left: 0;
+  width: 1440px;
+  height: 334px;
+}
+.fullNoContainer {
+  top: 0;
+  height: 295px;
+}
+.fullno {
+  align-self: stretch;
+  position: relative;
+  height: 295px;
+}
+.footer,
+.label1 {
+  font-size: var(--text-medium-16-medium-size);
+  font-family: var(--text-s-light);
+}
+.footer {
+  position: absolute;
+  top: 7307px;
+  left: 5024px;
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  width: 1472px;
+  height: 1200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-37xl);
+  text-align: left;
+  color: var(--grey-200);
+}
+.label1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+  color: var(--grey-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 81px;
+}
+.searchIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--color-aqua-100);
+  position: absolute;
+  top: 3304px;
+  left: calc(50% - 97px);
+  width: 194px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.buttons1:hover {
+  background-color: var(--color-lightseagreen-200);
+}
+.realEstate {
+  width: 100%;
+  height: 5589px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--title-xxs-size);
+  color: var(--white);
+  font-family: var(--text-s-light);
+}
+@media screen and (max-width: 1350px) {
+  .imageIcon1 {
+    flex: 1;
+  }
+  .teamInfo4 {
+    gap: var(--gap-11xl);
+    flex-wrap: wrap;
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .imageIcon2,
+  .utterProfessionalismParent {
+    flex: 1;
+  }
+  .teamInfo5 {
+    gap: var(--gap-11xl);
+    flex-wrap: wrap;
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .realEstate {
+    height: auto;
+    min-height: 5589;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .utterProfessionalismParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .realEstate1 {
+    font-size: var(--title-r-size);
+    line-height: 47px;
+  }
+  .meetOurTeam,
+  .meetOurTeam1 {
+    font-size: var(--font-size-7xl);
+    line-height: 25px;
+  }
+  .topNetworking,
+  .unlockingDoorsToContainer {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .topNetworkingParent {
+    min-width: 100%;
+  }
+  .teamInfo4,
+  .teamInfo5 {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .realEstate1 {
+    font-size: var(--title-xs-size);
+    line-height: 31px;
+  }
+  .meetOurTeam,
+  .meetOurTeam1 {
+    font-size: var(--font-size-lgi);
+    line-height: 18px;
+  }
+  .unlockingDoorsToContainer {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .kennedysGroupBrings {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 22px;
+  }
+  .safeAndProsperous,
+  .topLevelCommercial,
+  .topQualityHospitality {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 18px;
+  }
+  .topNetworking {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,885 @@
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.villasFound {
+  width: 1232px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.vuesaxlineararchiveTickIcon {
+  width: 16.9px;
+  position: relative;
+  height: 16.9px;
+}
+.tagsParent,
+.vuesaxlineararchiveTick {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.vuesaxlineararchiveTick {
+  width: 400px;
+  box-shadow: -4.9px 7px 21.1px #dbddde;
+  border-radius: var(--br-16xl-2);
+  background-color: var(--white);
+  display: none;
+  padding: var(--padding-3xs-7);
+}
+.tagsParent {
+  position: absolute;
+  top: 320px;
+  left: calc(50% - 720px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-61xl) var(--padding-37xl);
+  gap: var(--gap-5xl);
+  min-height: 2063px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--sand);
+  font-family: var(--text-s-light);
+}
+.popularLocations {
+  width: 130px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+}
+.mykonos {
+  margin: 0;
+}
+.athensRivieraCreteContainer,
+.mykonosBodrumIbizaContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+}
+.athensRivieraCreteContainer {
+  flex: 1;
+}
+.col,
+.footerLocationContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLocationContent {
+  width: 216px;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-33xl);
+}
+.col {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.luxuryVillasFor {
+  width: 153px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.mykonosVillasBodrumVillasIWrapper {
+  width: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.popularServices {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.privateSecurityKidsContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+  min-height: 136px;
+}
+.chauffeurCarRentalYachtsPrParent {
+  width: 286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.luxuryVillasFor1 {
+  width: 151px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.blue {
+  align-self: stretch;
+  background-color: var(--grey-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-118xl) var(--padding-21xl)
+    var(--padding-61xl);
+  gap: var(--gap-xl);
+  z-index: 0;
+}
+.travelDesign,
+.villas {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.travelDesign {
+  display: inline-block;
+  min-width: 90px;
+}
+.col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.dimarchouAggelouMetaxaContainer {
+  width: 426px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+}
+.footerContactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.argirena84600 {
+  height: 41px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.col6,
+.footerContactInfo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.col6 {
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+.vectorIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons {
+  align-self: stretch;
+  height: 52px;
+  background-color: var(--color-darkturquoise);
+  border: 0.8px solid var(--white);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-mini);
+  white-space: nowrap;
+}
+.logoIcon {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconBrandFacebookColor {
+  height: 26.6px;
+  width: 26.6px;
+  position: relative;
+}
+.footerSocialIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xl-9);
+}
+.blue1,
+.col7 {
+  display: flex;
+  align-items: flex-start;
+}
+.col7 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-10xl);
+  text-align: center;
+  color: var(--white);
+}
+.blue1 {
+  align-self: stretch;
+  background-color: var(--grey-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  color: var(--grey-200);
+}
+.partners1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+  min-width: 62px;
+}
+.image10Icon {
+  height: 53px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Icon,
+.image12Icon,
+.image13Icon {
+  height: 32px;
+  width: 82px;
+  position: relative;
+  object-fit: cover;
+}
+.image12Icon,
+.image13Icon {
+  height: 33px;
+  width: 69px;
+}
+.image13Icon {
+  height: 39px;
+  width: 129px;
+}
+.image14Icon,
+.image15Icon,
+.image16Icon {
+  height: 53px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+}
+.image15Icon,
+.image16Icon {
+  width: 39px;
+}
+.image16Icon {
+  height: 38px;
+  width: 102px;
+}
+.partnerLogo,
+.partners {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.partnerLogo {
+  width: 984px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.partners {
+  align-self: stretch;
+  background-color: var(--grey-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: center;
+  color: var(--grey-grey-dark);
+}
+.kennedysGroupVacation {
+  width: 345px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--turquoise);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--text-s-light-size);
+}
+.vuesaxlinearmessagesIcon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.whatsap {
+  width: 84px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 366px;
+  left: 1286px;
+  border-radius: var(--br-21xl);
+  background-color: var(--sand);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.footer,
+.footer1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.footer1 {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.footer {
+  bottom: 0;
+  height: 643px;
+  text-align: left;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.cardLayout,
+.cardLayout1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--sand);
+  width: 1440px;
+  height: 6px;
+}
+.cardLayout1 {
+  top: 109px;
+  background-color: var(--grey-200);
+  height: 54px;
+}
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem,
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem1 {
+  background-color: var(--grey-lighter-150);
+}
+.dropdownMenu,
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+}
+.textForDescription {
+  position: absolute;
+  top: calc(50% - 946.5px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  display: none;
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-s-light-size);
+  color: var(--grey-main-500);
+}
+.groupChild {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconLinkedin,
+.iconSocialInstagram {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconBrandFacebookColorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.vectorParent {
+  position: absolute;
+  top: 292px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.home {
+  text-decoration: underline;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 37px;
+}
+.div,
+.home,
+.luxuryVacationRentals,
+.mykonos1 {
+  position: relative;
+  line-height: 150%;
+}
+.luxuryVacationRentals,
+.mykonos1 {
+  letter-spacing: 0.03em;
+}
+.luxuryVacationRentals {
+  text-decoration: underline;
+}
+.mykonos1 {
+  display: inline-block;
+  min-width: 59px;
+}
+.breadcumbs {
+  position: absolute;
+  top: 109px;
+  left: 40px;
+  width: 1280px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  font-size: var(--text-s-light-size);
+  font-family: var(--text-s-light);
+}
+.a {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  color: inherit;
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.vuesaxlinearsmsIcon {
+  width: 19px;
+  position: relative;
+  height: 19px;
+}
+.contact {
+  width: 54px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+}
+.button1,
+.topMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.topMenu {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.concierge1,
+.events1,
+.realEstate1,
+.vacationRentals {
+  width: 126px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  cursor: pointer;
+}
+.concierge1,
+.events1,
+.realEstate1 {
+  width: 74px;
+}
+.events1,
+.realEstate1 {
+  width: 48px;
+}
+.realEstate1 {
+  width: 80px;
+}
+.services {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: right;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.capa1Icon {
+  height: 27px;
+  width: 309px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logIn1,
+.weManageYour {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+}
+.weManageYour {
+  width: 158px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.logIn1 {
+  height: 21px;
+  width: 38px;
+}
+.logIn {
+  border-radius: var(--br-sm);
+  background-color: var(--sand);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xl);
+  cursor: pointer;
+  font-size: var(--text-s-light-size);
+  color: var(--white);
+}
+.imageIcon {
+  height: 43px;
+  width: 43px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  object-fit: cover;
+}
+.image {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.image,
+.navFinal,
+.right,
+.topNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right {
+  flex: 1;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.navFinal,
+.topNav {
+  width: 1316px;
+  justify-content: space-between;
+  text-align: right;
+  font-size: var(--text-medium-16-medium-size);
+}
+.navFinal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  border-top: 8px solid var(--sand);
+  box-sizing: border-box;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-41xl) var(--padding-5xl);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.myProfile {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  cursor: pointer;
+}
+.profileSavedOptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.saved {
+  width: 96px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.profileSavedOptions1,
+.submenu204 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.submenu204 {
+  position: absolute;
+  top: 109px;
+  left: 1179px;
+  box-shadow: -16px 12px 44px rgba(0, 0, 0, 0.12);
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  border: 1px solid var(--grey-200);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  color: var(--grey-grey-dark);
+  font-family: var(--text-s-light);
+}
+.kennedysVillasList {
+  width: 100%;
+  height: 3037px;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--black);
+  font-family: var(--text-medium-16-medium);
+}
+@media screen and (max-width: 1225px) {
+  .blue1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .partnerLogo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .tags {
+    flex-wrap: wrap;
+  }
+  .blue,
+  .tagsParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .blue {
+    padding-right: var(--padding-49xl);
+  }
+  .kennedysVillasList {
+    height: auto;
+    min-height: 3037;
+  }
+}
+@media screen and (max-width: 750px) {
+  .chauffeurCarRentalYachtsPrParent {
+    gap: var(--gap-3xl);
+  }
+  .blue {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footerSocialIcon {
+    flex-wrap: wrap;
+  }
+  .submenu204 {
+    height: 104px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blue,
+  .blue1 {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    min-height: 643;
+  }
+}

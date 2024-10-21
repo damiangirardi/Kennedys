@@ -1,0 +1,645 @@
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem,
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem1 {
+  background-color: var(--grey-lighter-150);
+}
+.dropdownMenu,
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 799px;
+  left: 205px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  font-size: var(--text-medium-16-medium-size);
+}
+.textForDescription {
+  position: absolute;
+  top: calc(50% - 2187.5px);
+  left: calc(50% - 574px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  display: none;
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 143px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--grey-main-500);
+}
+.welcomeBackgroundIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.welcomeToKennedys {
+  margin: 0;
+}
+.welcomeToKennedysContainer {
+  position: absolute;
+  top: 138px;
+  left: calc(50% - 371px);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  display: inline-block;
+  width: 743.4px;
+  height: 99px;
+}
+.globalConcierge,
+.welcomeToKennedysWayOfLiWrapper {
+  position: absolute;
+  top: 83px;
+  left: calc(50% - 546px);
+  width: 1092px;
+  height: 134px;
+}
+.globalConcierge {
+  margin: 0;
+  top: 108px;
+  left: calc(50% - 487px);
+  font-size: var(--font-size-81xl);
+  letter-spacing: -0.04em;
+  line-height: 88%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 975px;
+  height: 242px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.welcomeBackgroundParent {
+  position: absolute;
+  top: 109px;
+  left: -6px;
+  width: 100%;
+  height: 427px;
+  text-align: center;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--white);
+  font-family: var(--text-s-light);
+}
+.home {
+  text-decoration: underline;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 37px;
+}
+.concierge,
+.home,
+.homeLabel {
+  position: relative;
+  line-height: 150%;
+}
+.concierge {
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 68px;
+}
+.breadcumbs {
+  position: absolute;
+  top: 109px;
+  left: 35px;
+  width: 1280px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  color: var(--white);
+  font-family: var(--text-s-light);
+}
+.topShapeIcon {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconBrandFacebookColor,
+.iconLinkedin {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconBrandFacebookColorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.topShapeParent {
+  position: absolute;
+  top: 599px;
+  left: 1372px;
+  width: 26.6px;
+  height: 313px;
+}
+.trustUsToContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 116%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.detail {
+  position: absolute;
+  top: 3032px;
+  left: -6px;
+  width: 1440px;
+  height: 532px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-53xl) 90px;
+  box-sizing: border-box;
+  background-image: url(/detail@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 532px;
+  text-align: center;
+  font-size: var(--title-m-size);
+  color: var(--white);
+  font-family: var(--text-s-light);
+}
+.myblossomChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--grey-black);
+  width: 100%;
+  height: 100%;
+}
+.myblossomItem {
+  position: absolute;
+  top: 112px;
+  left: 83px;
+  width: 236px;
+  height: 227px;
+  object-fit: cover;
+}
+.by {
+  margin: 0;
+  color: var(--white);
+  white-space: pre-wrap;
+}
+.travelDesignByMyContainer {
+  position: relative;
+  font-size: var(--title-l-size);
+  line-height: 109%;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: var(--font-gt-super-display);
+  display: inline-block;
+  max-width: 100%;
+}
+.fromItineraryPlanning {
+  color: var(--white);
+  display: inline-block;
+  max-width: 100%;
+}
+.fromItineraryPlanning,
+.label {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.vectorIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons,
+.travelDesignByMyBlossomParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  background-color: var(--turquoise);
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-mini);
+  color: var(--grey-black);
+}
+.travelDesignByMyBlossomParent {
+  position: absolute;
+  top: 100px;
+  left: 82px;
+  width: 1278px;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.capa1Icon,
+.myblossomInner {
+  position: absolute;
+  top: 258px;
+  left: 1095px;
+  width: 345px;
+  height: 0;
+}
+.capa1Icon {
+  top: 197px;
+  left: 481px;
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 258px;
+  left: 1191px;
+  width: 170px;
+  height: 263px;
+  object-fit: cover;
+}
+.myblossom,
+.weAreOn {
+  align-self: stretch;
+  position: relative;
+}
+.myblossom {
+  height: 521px;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+  color: var(--sand);
+}
+.weAreOn {
+  margin: 0;
+  height: 72px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.news,
+.newsGrid {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.newsGrid {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.news {
+  background-color: var(--grey-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-53xl) var(--padding-61xl);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--title-r-size);
+  color: var(--grey-grey-dark);
+}
+.popularLocations {
+  width: 130px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+}
+.athensRivieraCreteContainer,
+.mykonosBodrumIbizaContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+}
+.athensRivieraCreteContainer {
+  flex: 1;
+}
+.col,
+.locationContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationContent {
+  width: 216px;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-33xl);
+}
+.col {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.luxuryVillasFor {
+  width: 153px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.mykonosVillasBodrumVillasIWrapper {
+  width: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.popularServices {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.privateSecurityKidsContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+  min-height: 136px;
+}
+.chauffeurCarRentalYachtsPrParent {
+  width: 286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.luxuryVillasFor1 {
+  width: 151px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.blue {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-118xl) var(--padding-21xl)
+    var(--padding-61xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+  text-align: left;
+}
+.kennedysGroupVacation {
+  width: 345px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+}
+.bottom,
+.whatsap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--turquoise);
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 5;
+  font-size: var(--text-s-light-size);
+}
+.whatsap {
+  width: 84px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 373.8px;
+  left: 1286px;
+  border-radius: var(--br-21xl);
+  background-color: var(--sand);
+  height: 60px;
+  z-index: 6;
+}
+.footer,
+.footer1 {
+  position: absolute;
+  width: 100%;
+}
+.footer1 {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 100%;
+}
+.footer {
+  bottom: 0;
+  left: -6px;
+  height: 1200px;
+  text-align: center;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.kennedysConcierge {
+  width: 100%;
+  height: 5625px;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--black);
+  font-family: var(--text-medium-16-medium);
+}
+@media screen and (max-width: 1225px) {
+  .globalConcierge {
+    font-size: var(--font-size-11xl);
+    line-height: 35px;
+  }
+  .trustUsToContainer {
+    font-size: var(--title-s-size);
+    line-height: 32px;
+  }
+  .travelDesignByMyContainer,
+  .weAreOn {
+    font-size: var(--title-xs-size);
+    line-height: 35px;
+  }
+  .weAreOn {
+    line-height: 25px;
+  }
+  .chauffeurCarRentalYachtsPrParent {
+    gap: var(--gap-3xl);
+  }
+  .blue {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .globalConcierge {
+    font-size: var(--font-size-31xl);
+    line-height: 53px;
+  }
+  .trustUsToContainer {
+    font-size: var(--font-size-18xl);
+    line-height: 43px;
+  }
+  .travelDesignByMyContainer {
+    font-size: var(--title-r-size);
+    line-height: 52px;
+  }
+  .weAreOn {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .blue,
+  .news {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .blue {
+    padding-right: var(--padding-49xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .newsGrid {
+    justify-content: center;
+  }
+  .blue,
+  .newsGrid {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    min-height: 1200;
+  }
+  .kennedysConcierge {
+    height: auto;
+    min-height: 5625;
+  }
+}

@@ -1,0 +1,887 @@
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem,
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem1 {
+  background-color: var(--grey-lighter-150);
+}
+.dropdownMenu,
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  font-size: var(--text-medium-16-medium-size);
+}
+.textForDescription {
+  position: absolute;
+  top: calc(50% - 1326.5px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  display: none;
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-s-light-size);
+  color: var(--grey-main-500);
+}
+.heartIcon {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconBrandFacebookColor,
+.iconLinkedin {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.socialIcons,
+.vuesaxlinearheartIcon {
+  position: absolute;
+  top: 293px;
+  left: 2.3px;
+  width: 20px;
+  height: 20px;
+}
+.socialIcons {
+  top: 744px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.otherServices {
+  margin: 0;
+  position: absolute;
+  top: 2195px;
+  left: calc(50% - 286px);
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: var(--text-s-light);
+  color: var(--grey-grey-dark);
+  text-align: center;
+  display: inline-block;
+  width: 573px;
+  height: 64px;
+}
+.popularLocations {
+  width: 130px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+}
+.mykonos {
+  margin: 0;
+}
+.athensRivieraCreteContainer,
+.mykonosBodrumIbizaContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+}
+.athensRivieraCreteContainer {
+  flex: 1;
+}
+.col,
+.locationLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationLinks {
+  width: 216px;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-33xl);
+}
+.col {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.luxuryVillasFor {
+  width: 153px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.mykonosVillasBodrumVillasIWrapper {
+  width: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.popularServices {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.privateSecurityKidsContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+  min-height: 136px;
+}
+.chauffeurCarRentalYachtsPrParent {
+  width: 286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.luxuryVillasFor1 {
+  width: 151px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.blue {
+  align-self: stretch;
+  background-color: var(--grey-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-118xl) var(--padding-21xl)
+    var(--padding-61xl);
+  gap: var(--gap-xl);
+  z-index: 0;
+}
+.travelDesign,
+.villas {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.travelDesign {
+  display: inline-block;
+  min-width: 90px;
+}
+.col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.dimarchouAggelouMetaxaContainer {
+  width: 426px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+}
+.officeLocations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.argirena84600 {
+  height: 41px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.col6,
+.officeLocations1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.col6 {
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+.vectorIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons {
+  align-self: stretch;
+  height: 52px;
+  background-color: var(--color-darkturquoise);
+  border: 0.8px solid var(--white);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-mini);
+  white-space: nowrap;
+}
+.logoIcon {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconBrandFacebookColor1 {
+  height: 26.6px;
+  width: 26.6px;
+  position: relative;
+}
+.footerSocialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xl-9);
+}
+.blue1,
+.col7 {
+  display: flex;
+  align-items: flex-start;
+}
+.col7 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: var(--gap-10xl);
+  text-align: center;
+  color: var(--white);
+}
+.blue1 {
+  align-self: stretch;
+  background-color: var(--grey-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  color: var(--grey-200);
+}
+.partners1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+  min-width: 62px;
+}
+.image10Icon {
+  height: 53px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Icon,
+.image12Icon,
+.image13Icon {
+  height: 32px;
+  width: 82px;
+  position: relative;
+  object-fit: cover;
+}
+.image12Icon,
+.image13Icon {
+  height: 33px;
+  width: 69px;
+}
+.image13Icon {
+  height: 39px;
+  width: 129px;
+}
+.image14Icon,
+.image15Icon,
+.image16Icon {
+  height: 53px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+}
+.image15Icon,
+.image16Icon {
+  width: 39px;
+}
+.image16Icon {
+  height: 38px;
+  width: 102px;
+}
+.partnerLogos,
+.partners {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.partnerLogos {
+  width: 984px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.partners {
+  align-self: stretch;
+  background-color: var(--grey-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: center;
+  color: var(--grey-grey-dark);
+}
+.kennedysGroupVacation {
+  width: 345px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--turquoise);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--text-s-light-size);
+}
+.vuesaxlinearmessagesIcon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.whatsap {
+  width: 84px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 366px;
+  left: 1286px;
+  border-radius: var(--br-21xl);
+  background-color: var(--sand);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.footer,
+.footer1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.footer1 {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.footer {
+  bottom: 0;
+  height: 643px;
+  text-align: left;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.chaufferInMykonos {
+  margin: 0;
+  height: 54px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.drivingOnYour {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.chaufferInMykonosParent {
+  position: absolute;
+  top: 714px;
+  left: 83px;
+  width: 802px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-base);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.cardsWrapper,
+.chaufferInMykonosParent,
+.serviceCards {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.serviceCards {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-25xl);
+  cursor: pointer;
+}
+.cardsWrapper {
+  position: absolute;
+  top: 975px;
+  left: 82px;
+  width: 1279px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.whyChooseOur {
+  margin: 0;
+  width: 474px;
+  height: 54px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.ourConciergeServices {
+  position: relative;
+  font-size: var(--title-xxs-size);
+  letter-spacing: 0.01em;
+  line-height: 160%;
+}
+.why {
+  position: absolute;
+  top: 2372px;
+  left: 276px;
+  width: 889px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.benefitItemsChild {
+  align-self: stretch;
+  height: 304px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bestRates,
+.weCanGuarantee {
+  position: relative;
+  display: inline-block;
+}
+.bestRates {
+  width: 114px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.weCanGuarantee {
+  width: 288px;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--grey-black);
+}
+.benefitItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 322px;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefitItemsItem {
+  align-self: stretch;
+  height: 186px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.availability {
+  width: 326px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+}
+.dedicatedDriverAvailable {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--grey-black);
+}
+.benefitItems1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-197xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  min-width: 322px;
+  max-width: 100%;
+  z-index: 2;
+  margin-left: -40px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.professionalDrivers {
+  height: 44px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.content,
+.groupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-45xl);
+  gap: var(--gap-5xs);
+}
+.groupParent {
+  flex: 1;
+  gap: var(--gap-6xs);
+  min-width: 322px;
+  max-width: 100%;
+  z-index: 3;
+  margin-left: -40px;
+  color: var(--sand);
+}
+.benefitItemsInner {
+  align-self: stretch;
+  height: 203px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.englishSpakers {
+  width: 188px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.benefitItems2,
+.benefitItemsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.benefitItems2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-109xl) 0 0;
+  gap: var(--gap-xs);
+  min-width: 322px;
+  z-index: 4;
+  margin-left: -40px;
+}
+.benefitItemsParent {
+  position: absolute;
+  top: 2603px;
+  left: calc(50% - 720px);
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--title-xxs-size);
+  color: var(--grey-grey-dark);
+  font-family: var(--text-s-light);
+}
+.kennedysConciergeInMykonos {
+  width: 100%;
+  height: 3797px;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--title-r-size);
+  color: var(--black);
+  font-family: var(--text-medium-16-medium);
+}
+@media screen and (max-width: 1225px) {
+  .otherServices {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .chauffeurCarRentalYachtsPrParent {
+    gap: var(--gap-3xl);
+  }
+  .blue {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footerSocialIcons {
+    flex-wrap: wrap;
+  }
+  .chaufferInMykonos,
+  .whyChooseOur {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .ourConciergeServices {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 26px;
+  }
+  .availability,
+  .bestRates,
+  .professionalDrivers {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 18px;
+  }
+  .content {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .englishSpakers {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .blue1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .partnerLogos {
+    flex-wrap: wrap;
+  }
+  .serviceCards {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(298px, 516px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .otherServices {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .blue {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+  .chaufferInMykonos {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .serviceCards {
+    grid-template-columns: minmax(298px, 1fr);
+  }
+  .whyChooseOur {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .benefitItemsParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blue,
+  .blue1 {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    min-height: 643;
+  }
+  .serviceCards {
+    flex-wrap: wrap;
+  }
+  .kennedysConciergeInMykonos {
+    height: auto;
+    min-height: 3797;
+  }
+}

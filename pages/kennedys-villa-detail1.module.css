@@ -1,0 +1,2015 @@
+.detailsLayout {
+  position: absolute;
+  top: 1954px;
+  left: 0;
+  background-color: var(--grey-200);
+  width: 1440px;
+  height: 1078px;
+}
+.detailsLayout1 {
+  position: absolute;
+  top: 2938px;
+  left: calc(50% - 720px);
+  background-color: var(--grey-black);
+  width: 1440px;
+  height: 399px;
+}
+.detailsLayout2 {
+  top: 194px;
+  background-color: var(--grey-200);
+  height: 932px;
+}
+.detailsLayout2,
+.detailsLayout3,
+.villaDetailIcon {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.detailsLayout3 {
+  top: 0;
+  background-color: var(--sand);
+  height: 6px;
+}
+.villaDetailIcon {
+  top: 109px;
+  height: 572px;
+  object-fit: cover;
+}
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem,
+.dropdownListItem1,
+.menuItems {
+  display: flex;
+  justify-content: flex-start;
+}
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--grey-lighter-150);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.menuItems {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu,
+.textForDescription {
+  position: absolute;
+  font-family: var(--text-medium-16-medium);
+  display: none;
+}
+.dropdownMenu {
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+}
+.textForDescription {
+  top: calc(50% - 3116px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-s-light-size);
+  color: var(--grey-main-500);
+  font-family: var(--text-medium-16-medium);
+}
+.kennedysVillaDetailChild {
+  position: absolute;
+  top: 192px;
+  left: calc(50% - 546px);
+  width: 1092px;
+  height: 134px;
+}
+.footerIconsChild {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.socialIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.footerIcons {
+  position: absolute;
+  top: 711px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.kennedysVillaDetailItem {
+  position: absolute;
+  top: 820px;
+  left: calc(50% - 573px);
+  width: 1147px;
+  height: 116px;
+}
+.aboutTheresa {
+  margin: 0;
+  width: 474px;
+  height: 54px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.villaTheresaIs {
+  margin: 0;
+}
+.villaTheresaIsContainer {
+  width: 1147px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  letter-spacing: 0.01em;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 100%;
+}
+.aboutTheresaParent {
+  position: absolute;
+  top: 738px;
+  left: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.label {
+  width: 218px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+  display: inline-block;
+}
+.moreIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 150.5px);
+  background-color: var(--turquoise);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.buttonsWrapper {
+  position: absolute;
+  top: 1839px;
+  left: calc(50% - 150px);
+  width: 301px;
+  height: 52px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--grey-black);
+}
+.shortInfo,
+.shortInfo1 {
+  position: absolute;
+  top: 8570px;
+  left: 275px;
+  width: 8px;
+  height: 12px;
+}
+.shortInfo1 {
+  top: 0;
+  left: 218.4px;
+  height: 13.3px;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+.buttons1 {
+  position: absolute;
+  top: 622px;
+  left: calc(50% - 97px);
+  background-color: var(--color-aqua-100);
+  width: 194px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.unionIcon {
+  position: absolute;
+  height: 7.84%;
+  top: 15.39%;
+  bottom: 76.77%;
+  left: calc(50% - 65px);
+  max-height: 100%;
+  width: 55.3px;
+}
+.otherServicesIn {
+  position: absolute;
+  top: 0;
+  left: 67px;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  display: inline-block;
+  width: 1152px;
+  height: 59px;
+}
+.vectorIcon1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 100%;
+  right: -100%;
+  bottom: -100%;
+  left: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 0;
+}
+.groupChild,
+.vectorWrapper {
+  position: absolute;
+  box-sizing: border-box;
+}
+.vectorWrapper {
+  top: 19.2px;
+  left: 22.4px;
+  width: 4.8px;
+  height: 10.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-5xs);
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--grey-black);
+  width: 100%;
+  height: 100%;
+}
+.frameParent,
+.groupItem {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1237.1px;
+  width: 48.8px;
+}
+.groupItem {
+  left: 48.8px;
+  max-height: 100%;
+  object-fit: contain;
+}
+.groupContainer {
+  position: absolute;
+  top: 216px;
+  left: 0;
+  width: 1285.9px;
+  height: 48.8px;
+}
+.groupChild1,
+.groupChild2,
+.groupIcon,
+.groupInner {
+  position: absolute;
+  top: 271px;
+  left: 287px;
+  width: 338px;
+  height: 192px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.groupChild1,
+.groupChild2,
+.groupIcon {
+  top: 39px;
+  left: 406px;
+}
+.groupChild1,
+.groupChild2 {
+  top: 0;
+  left: 0;
+  width: 332.8px;
+  height: 322px;
+}
+.groupChild2 {
+  top: 20px;
+  left: 789px;
+}
+.uniqueExperiences {
+  position: absolute;
+  top: 339px;
+  left: 2px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 183px;
+}
+.driveMeAroundContainer,
+.keepMeSafe,
+.sailMeAway {
+  position: absolute;
+  top: 363px;
+  left: 789px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.keepMeSafe,
+.sailMeAway {
+  top: 475px;
+  left: 285px;
+}
+.sailMeAway {
+  top: 246px;
+  left: 652px;
+  color: var(--sand);
+  display: inline-block;
+  width: 92px;
+  min-width: 92px;
+}
+.groupDiv {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 82px;
+  width: 1121.8px;
+}
+.groupParent {
+  position: absolute;
+  top: 90px;
+  left: calc(50% - 642.95px);
+  width: 100%;
+  height: 497px;
+  text-align: left;
+  font-size: var(--title-xxs-size);
+  color: var(--grey-grey-dark);
+}
+.otherServicesInTheresaParent {
+  position: absolute;
+  top: 9.4px;
+  left: 32px;
+  width: 1285.9px;
+  height: 587px;
+  font-size: var(--title-r-size);
+}
+.shortInfoParent {
+  position: absolute;
+  top: 7303px;
+  left: 45px;
+  width: 1342px;
+  height: 690px;
+  display: none;
+  text-align: center;
+  color: var(--grey-black);
+}
+.travelDesign1 {
+  width: 1278px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  display: none;
+}
+.exploreTheWorld {
+  color: var(--grey-200);
+}
+.exploreTheWorld,
+.withOurOwn {
+  margin: 0;
+  width: 1102px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 96%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.title,
+.title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title1 {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.title {
+  align-self: stretch;
+  justify-content: center;
+}
+.fromPlanningTo,
+.label2 {
+  width: 1392px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: none;
+}
+.label2 {
+  width: 211px;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.5px;
+  font-family: var(--text-s-light);
+  color: var(--grey-black);
+  text-align: center;
+  display: inline-block;
+}
+.buttons2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-13xl);
+  background-color: var(--turquoise);
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+}
+.explore,
+.title2 {
+  color: var(--white);
+}
+.title2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-xl);
+  font-size: var(--text-medium-16-medium-size);
+}
+.explore {
+  width: 90px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  text-align: center;
+  display: inline-block;
+}
+.imageLayout,
+.imageTitles {
+  display: flex;
+  align-items: center;
+}
+.imageTitles {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-chocolate);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.imageLayout {
+  height: 246px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/category-images@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.unwind {
+  width: 84px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  color: var(--black);
+  text-align: center;
+  display: inline-block;
+}
+.image,
+.unwindWrapper {
+  display: flex;
+  align-items: center;
+}
+.unwindWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--turquoise);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.image {
+  flex: 1;
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/image1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.experience {
+  width: 122px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  color: var(--black);
+  text-align: center;
+  display: inline-block;
+}
+.experienceWrapper,
+.image1 {
+  display: flex;
+  align-items: center;
+}
+.experienceWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-goldenrod);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.image1 {
+  flex: 1;
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/image2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.inspire {
+  width: 76px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+}
+.image2,
+.inspireWrapper {
+  display: flex;
+  align-items: center;
+}
+.inspireWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-steelblue);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.image2 {
+  flex: 1;
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/image3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.adventure {
+  width: 120px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+}
+.adventureWrapper,
+.image3 {
+  display: flex;
+  align-items: center;
+}
+.adventureWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--sand);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.image3 {
+  flex: 1;
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/image4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.discover {
+  width: 98px;
+  position: relative;
+  font-size: var(--title-xxs-size);
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: var(--text-s-light);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+}
+.discoverWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-mediumseagreen-100);
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.discoverWrapper,
+.image4,
+.images {
+  display: flex;
+  align-items: center;
+}
+.image4 {
+  flex: 1;
+  height: 246px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/image5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.images {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.travelDesign {
+  width: 1440px;
+  background-color: var(--grey-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  z-index: 0;
+  font-size: var(--title-m-size);
+}
+.popularLocations {
+  width: 130px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+}
+.athensRivieraCreteContainer,
+.mykonosBodrumIbizaContainer {
+  width: 65px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+}
+.athensRivieraCreteContainer {
+  width: 99px;
+  flex-shrink: 0;
+}
+.col,
+.locationLists {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+}
+.col {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.luxuryVillasFor {
+  width: 153px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.mykonosVillasBodrumVillasContainer {
+  width: 121px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.mykonosVillasBodrumVillasIWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.popularServices {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.privateSecurityKidsContainer {
+  height: 136px;
+  width: 121px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 210%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.chauffeurCarRentalYachtsPrParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.luxuryVillasFor1 {
+  width: 151px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.blue {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-61xl);
+  gap: var(--gap-120xl);
+  z-index: 1;
+  text-align: left;
+  color: var(--grey-black);
+}
+.concierge,
+.villas {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.villas {
+  width: 90px;
+  display: inline-block;
+}
+.concierge {
+  align-self: stretch;
+}
+.col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.dimarchouAggelouMetaxaContainer,
+.weManage {
+  width: 132px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+}
+.dimarchouAggelouMetaxaContainer {
+  width: 426px;
+}
+.officeAddresses {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.argirena84600 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  display: inline-block;
+  height: 41px;
+  flex-shrink: 0;
+}
+.col6 {
+  width: 451px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.label3 {
+  height: 19px;
+  width: 209px;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+  display: inline-block;
+}
+.buttons3 {
+  width: 283px;
+  background-color: var(--color-darkturquoise);
+  border: 0.8px solid var(--white);
+  box-sizing: border-box;
+  height: 52px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-mini);
+}
+.logoIcon {
+  width: 280px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl-9);
+}
+.blue1,
+.col7 {
+  display: flex;
+  align-items: flex-start;
+}
+.col7 {
+  width: 283px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  text-align: center;
+  color: var(--white);
+}
+.blue1 {
+  align-self: stretch;
+  background-color: var(--grey-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-61xl);
+  z-index: 2;
+  text-align: left;
+  color: var(--grey-200);
+}
+.partners1 {
+  width: 62px;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+  display: inline-block;
+}
+.image10Icon {
+  height: 53px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Icon,
+.image12Icon,
+.image13Icon {
+  height: 32px;
+  width: 82px;
+  position: relative;
+  object-fit: cover;
+}
+.image12Icon,
+.image13Icon {
+  height: 33px;
+  width: 69px;
+}
+.image13Icon {
+  height: 39px;
+  width: 129px;
+}
+.image14Icon,
+.image15Icon,
+.image16Icon {
+  height: 53px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+}
+.image15Icon,
+.image16Icon {
+  width: 39px;
+}
+.image16Icon {
+  height: 38px;
+  width: 102px;
+}
+.partnerLogos,
+.partners {
+  display: flex;
+  align-items: center;
+}
+.partnerLogos {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-37xl);
+}
+.partners {
+  align-self: stretch;
+  background-color: var(--grey-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0;
+  z-index: 3;
+  color: var(--grey-grey-dark);
+}
+.kennedysGroupVacation {
+  width: 345px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: inline-block;
+}
+.bottom,
+.whatsap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--turquoise);
+  padding: var(--padding-5xs) 0;
+  z-index: 4;
+  text-align: center;
+  font-size: var(--text-s-light-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.whatsap {
+  width: 84px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 366px;
+  left: 1286px;
+  border-radius: var(--br-21xl);
+  background-color: var(--sand);
+  height: 60px;
+  z-index: 5;
+}
+.footer,
+.footer1 {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--sand);
+  font-family: var(--text-s-light);
+}
+.image2Icon {
+  position: absolute;
+  top: 4163px;
+  left: 719.5px;
+  width: 1px;
+  height: 1px;
+  object-fit: cover;
+}
+.theresaCanComfortably {
+  position: absolute;
+  top: 1736px;
+  left: 310px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  text-align: center;
+  display: inline-block;
+  width: 843px;
+}
+.villaTheresaOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 103%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.theGuestsWould {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.outdoorSpacesDescription {
+  position: absolute;
+  top: 3035px;
+  left: 97px;
+  width: 473px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  font-size: var(--title-r-size);
+  color: var(--white);
+}
+.bedroomCountChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bedrooms1 {
+  width: 125px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.capa1,
+.capa1Wrapper {
+  position: absolute;
+  top: 0;
+}
+.capa1 {
+  left: 10.3px;
+  width: 15.2px;
+  height: 10.3px;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.capa1Wrapper {
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bedroomCountInner {
+  width: 10.3px;
+  height: 15.2px;
+  position: relative;
+}
+.bedroomCount {
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  z-index: 3;
+}
+.diningAreaChild {
+  align-self: stretch;
+  height: 186px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.spaciousLivingAnd {
+  width: 326px;
+  height: 44px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 113%;
+}
+.diningArea {
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-254xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  z-index: 2;
+  margin-left: -40px;
+}
+.kitchenChild {
+  align-self: stretch;
+  height: 230px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.fullyEquippedKitchen {
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.kitchen,
+.kitchenLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kitchenLabel {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-235xl);
+}
+.kitchen {
+  width: 394px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 547px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  z-index: 1;
+  color: var(--sand);
+}
+.poolChild {
+  align-self: stretch;
+  height: 316px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.swimmingPool {
+  width: 166px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.bedrooms,
+.pool {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pool {
+  width: 344px;
+  margin: 0 !important;
+  top: 0;
+  left: 983px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  z-index: 0;
+}
+.bedrooms {
+  top: 936px;
+  left: calc(50% - 720px);
+  width: 100%;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl) 0 var(--padding-81xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--title-xxs-size);
+  color: var(--grey-grey-dark);
+  font-family: var(--text-s-light);
+}
+.descriptionSeparatorIcon {
+  position: absolute;
+  top: 2859px;
+  left: 638px;
+  width: 722px;
+  height: 540px;
+  object-fit: cover;
+}
+.a {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  color: inherit;
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.vuesaxlinearsmsIcon {
+  width: 19px;
+  position: relative;
+  height: 19px;
+}
+.contact {
+  width: 54px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+}
+.button1,
+.topMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.topMenu {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.concierge1,
+.events1,
+.realEstate1,
+.vacationRentals {
+  width: 126px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+  cursor: pointer;
+}
+.concierge1,
+.events1,
+.realEstate1 {
+  width: 74px;
+}
+.events1,
+.realEstate1 {
+  width: 48px;
+}
+.realEstate1 {
+  width: 80px;
+}
+.navigationLinks {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: right;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.capa1Icon {
+  height: 27px;
+  width: 309px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logIn1,
+.weManageYour {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  display: inline-block;
+}
+.weManageYour {
+  width: 158px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.logIn1 {
+  width: 38px;
+  font-size: var(--text-s-light-size);
+  font-family: var(--text-s-light);
+  color: var(--white);
+  text-align: right;
+}
+.logIn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xl);
+  background-color: var(--sand);
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imageIcon {
+  height: 43px;
+  width: 43px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  object-fit: cover;
+}
+.image5,
+.right,
+.topNav {
+  flex-direction: row;
+  align-items: center;
+}
+.image5 {
+  display: none;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.right,
+.topNav {
+  display: flex;
+}
+.right {
+  flex: 1;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.topNav {
+  width: 1316px;
+  justify-content: space-between;
+  text-align: right;
+  font-size: var(--text-medium-16-medium-size);
+}
+.label4,
+.navFinal {
+  font-family: var(--text-s-light);
+  color: var(--grey-black);
+}
+.navFinal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  border-top: 8px solid var(--sand);
+  box-sizing: border-box;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-41xl) var(--padding-5xl);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.label4 {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 1px;
+  line-height: 19px;
+  text-align: center;
+  display: inline-block;
+  min-width: 81px;
+}
+.buttons4,
+.buttons5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--color-aqua-100);
+  position: absolute;
+  top: 4163px;
+  left: calc(50% - 97px);
+  width: 194px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.buttons5 {
+  top: 6178px;
+}
+.unionIcon1 {
+  position: relative;
+  width: 1252px;
+  height: 476px;
+}
+.saquareFootage {
+  left: 44px;
+}
+.needToKnow,
+.saquareFootage,
+.staffAndServices {
+  margin: 0;
+  position: absolute;
+  top: 22px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.staffAndServices {
+  left: 293px;
+  color: var(--sand);
+}
+.needToKnow {
+  left: 551px;
+}
+.infoBlockImage {
+  position: absolute;
+  top: 51px;
+  left: 46px;
+  background-color: var(--grey-grey);
+  width: 178px;
+  height: 3px;
+}
+.needToKnowPlaceholder,
+.villaDetailsChild {
+  position: absolute;
+  top: 51px;
+  left: 295px;
+  background-color: var(--sand);
+  width: 187px;
+  height: 3px;
+}
+.needToKnowPlaceholder {
+  left: 553px;
+  background-color: var(--grey-grey);
+  width: 146px;
+}
+.servicesIncludedWith {
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+.blankLine {
+  margin: 0;
+}
+.blankLine,
+.mayaLuxeConcierge {
+  letter-spacing: 0.5px;
+}
+.housekeeping {
+  margin-bottom: 0;
+}
+.mayaLuxeConciergeSpeaksE {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.servicesIncludedWithContainer {
+  position: absolute;
+  top: 105px;
+  left: 46px;
+  font-size: var(--text-medium-16-medium-size);
+  line-height: 140%;
+  color: var(--grey-black);
+  display: inline-block;
+  width: 1236px;
+  height: 384px;
+}
+.villaDetails {
+  position: absolute;
+  top: 4965px;
+  left: calc(50% - 641px);
+  width: 1282px;
+  height: 489px;
+  text-align: left;
+  font-size: var(--title-xs-size);
+  color: var(--grey-grey);
+  font-family: var(--text-s-light);
+}
+.image1Icon {
+  position: absolute;
+  top: 533px;
+  left: 634px;
+  width: 302px;
+  height: 168px;
+  object-fit: cover;
+}
+.theresaDescriptionChild,
+.theresaDescriptionItem,
+.theresaSummaryChild {
+  position: absolute;
+  top: 534px;
+  left: 317px;
+  width: 302px;
+  height: 167px;
+  object-fit: cover;
+}
+.theresaDescriptionItem,
+.theresaSummaryChild {
+  left: 952px;
+  width: 301px;
+}
+.theresaSummaryChild {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.theresaSummary {
+  position: absolute;
+  top: 534px;
+  left: 0;
+  width: 301px;
+  height: 167px;
+}
+.moreDescription,
+.theresaDescription {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1252px;
+  height: 520.9px;
+}
+.theresaDescription {
+  top: 51px;
+  width: 1253px;
+  height: 701px;
+}
+.moreAboutTheresa {
+  margin: 0;
+  position: absolute;
+  top: -24px;
+  left: calc(50% - 589.5px);
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 96%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 1152px;
+}
+.sliderChild,
+.sliderItem {
+  height: 7.1px;
+  width: 30.8px;
+  position: relative;
+  border-radius: var(--br-9xs-2);
+  background-color: var(--sand);
+}
+.sliderItem {
+  width: 7.1px;
+}
+.slider {
+  position: absolute;
+  top: 777px;
+  left: calc(50% - 61.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-1);
+}
+.theresaDescriptionParent {
+  position: absolute;
+  top: 2024px;
+  left: calc(50% - 627px);
+  width: 1253px;
+  height: 784.1px;
+  text-align: center;
+  font-size: var(--title-r-size);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.stars {
+  margin: 0;
+  width: 90px;
+  position: relative;
+  font-size: inherit;
+  line-height: 122%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.indulgeInA {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--black);
+}
+.block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 296px;
+  max-width: 100%;
+}
+.stars1,
+.stars2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 122%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.stars1 {
+  width: 91px;
+}
+.stars2 {
+  min-width: 89px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-28xl);
+}
+.packageDetails,
+.row {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+.packagesContainer {
+  position: absolute;
+  top: 505px;
+  left: 39.5px;
+  width: 1440px;
+  height: 137px;
+  max-width: 100%;
+}
+.featureItemChild {
+  position: absolute;
+  top: 126px;
+  left: calc(50% - 740px);
+  background-color: var(--grey-200);
+  width: 1482px;
+  height: 420px;
+}
+.experienceLuxuryAt {
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+.star6StarAnd {
+  letter-spacing: 0.01em;
+  font-family: var(--text-s-light);
+}
+.eachOfferingA {
+  letter-spacing: 0.02em;
+}
+.experienceLuxuryAtContainer {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  line-height: 140%;
+}
+.featureDescription {
+  position: absolute;
+  top: calc(50% - 50.5px);
+  left: 954px;
+  width: 402px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.featureItemInner,
+.featureItemItem,
+.rectangleIcon {
+  position: absolute;
+  top: 97px;
+  left: 95px;
+  width: 386px;
+  height: 224px;
+  object-fit: cover;
+}
+.featureItemInner,
+.rectangleIcon {
+  top: 208px;
+  left: 416px;
+  width: 500px;
+  height: 258px;
+}
+.rectangleIcon {
+  top: 355px;
+  left: 78px;
+  width: 414px;
+  height: 221px;
+}
+.featureList {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 100%;
+  height: 100%;
+}
+.packageFeatures {
+  position: absolute;
+  top: -97px;
+  left: 0;
+  width: 1440px;
+  height: 588px;
+  font-size: var(--title-r-size);
+  color: var(--black);
+}
+.kennedysVillaDetail,
+.package {
+  text-align: left;
+  font-family: var(--text-s-light);
+}
+.package {
+  position: absolute;
+  top: 5488px;
+  left: 0;
+  width: 1480px;
+  height: 642px;
+  font-size: var(--title-xs-size);
+  color: var(--sand);
+}
+.kennedysVillaDetail {
+  width: 100%;
+  height: 9704px;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--black);
+}
+@media screen and (max-width: 1225px) {
+  .bedroomCount,
+  .diningArea {
+    flex: 1;
+  }
+  .bedrooms {
+    flex-wrap: wrap;
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .aboutTheresa,
+  .otherServicesIn,
+  .villaTheresaOffer {
+    font-size: var(--title-xr-size);
+    line-height: 33px;
+  }
+  .bedroomCount {
+    min-width: 100%;
+  }
+  .diningArea {
+    margin-left: 0;
+  }
+  .moreAboutTheresa {
+    font-size: var(--title-xr-size);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutTheresa {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .villaTheresaIsContainer {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 22px;
+  }
+  .otherServicesIn {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .driveMeAroundContainer,
+  .keepMeSafe,
+  .sailMeAway,
+  .uniqueExperiences {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 18px;
+  }
+  .villaTheresaOffer {
+    font-size: var(--title-xs-size);
+    line-height: 25px;
+  }
+  .bedrooms1,
+  .fullyEquippedKitchen,
+  .spaciousLivingAnd,
+  .swimmingPool {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 18px;
+  }
+  .bedrooms {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .needToKnow,
+  .saquareFootage,
+  .staffAndServices {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .moreAboutTheresa {
+    font-size: var(--title-xs-size);
+    line-height: 23px;
+  }
+  .stars,
+  .stars1,
+  .stars2 {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .package,
+  .packageDetails,
+  .packagesContainer {
+    height: auto;
+    min-height: 137;
+  }
+  .package {
+    min-height: 642;
+  }
+  .kennedysVillaDetail {
+    height: auto;
+    min-height: 9704;
+  }
+}

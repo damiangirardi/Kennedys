@@ -1,0 +1,890 @@
+.leadingIcon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  display: none;
+}
+.label,
+.number {
+  position: relative;
+  align-items: center;
+}
+.label {
+  width: 57px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  display: flex;
+}
+.number {
+  width: 24px;
+  font-size: var(--text-small-12-bold-size);
+  line-height: 14px;
+  font-family: var(--text-normal-14-regular);
+  display: none;
+  flex-shrink: 0;
+}
+.tag,
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag {
+  border-radius: var(--br-20xl);
+  border: 1px solid var(--grey-600);
+  box-sizing: border-box;
+  height: 26px;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.tags {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.villasFound {
+  width: 1232px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  color: var(--sand);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.vuesaxlineararchiveTickIcon {
+  width: 16.9px;
+  position: relative;
+  height: 16.9px;
+}
+.tagsParent,
+.vuesaxlineararchiveTick {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.vuesaxlineararchiveTick {
+  width: 400px;
+  box-shadow: -4.9px 7px 21.1px #dbddde;
+  border-radius: var(--br-16xl-2);
+  background-color: var(--white);
+  display: none;
+  padding: var(--padding-3xs-7);
+}
+.tagsParent {
+  position: absolute;
+  top: 320px;
+  left: calc(50% - 720px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-61xl) var(--padding-37xl);
+  gap: var(--gap-5xl);
+  min-height: 2063px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--grey-600);
+  font-family: var(--text-s-light);
+}
+.kennedysVillasListChild,
+.kennedysVillasListItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--sand);
+  width: 1440px;
+  height: 6px;
+}
+.kennedysVillasListItem {
+  top: 109px;
+  background-color: var(--grey-200);
+  height: 54px;
+}
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem,
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem1 {
+  background-color: var(--grey-lighter-150);
+}
+.dropdownMenu,
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  font-size: var(--text-medium-16-medium-size);
+}
+.textForDescription {
+  position: absolute;
+  top: calc(50% - 554px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  display: none;
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--grey-main-500);
+}
+.groupChild {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconBrandFacebookColor,
+.iconLinkedin {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconBrandFacebookColorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.vectorParent,
+.vuesaxlinearheartIcon {
+  position: absolute;
+  top: 293px;
+  left: 2.3px;
+  width: 20px;
+  height: 20px;
+}
+.vectorParent {
+  top: 292px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.home {
+  text-decoration: underline;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 37px;
+}
+.breadcrumbList,
+.home,
+.mykonos,
+.villas {
+  position: relative;
+  line-height: 150%;
+}
+.mykonos,
+.villas {
+  letter-spacing: 0.03em;
+}
+.villas {
+  text-decoration: underline;
+}
+.mykonos {
+  display: inline-block;
+  min-width: 59px;
+}
+.breadcumbs {
+  position: absolute;
+  top: 109px;
+  left: 40px;
+  width: 1280px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 6.8px;
+  font-family: var(--text-s-light);
+}
+.kennedysVillasListInner {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.filters1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 160%;
+}
+.filtersTop {
+  align-self: stretch;
+  border-bottom: 1px solid var(--grey-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-17xl) 0 var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.priceRange {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 140%;
+}
+.priceChild {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.leadingIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.minPlaceholder,
+.noMin {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+  display: none;
+}
+.noMin {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--text-s-light);
+  font-size: var(--text-medium-16-medium-size);
+  background-color: transparent;
+  flex: 1;
+  color: var(--grey-grey);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+  padding: 0;
+}
+.leadingIcon4 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  display: none;
+}
+.label3,
+.number3 {
+  position: relative;
+  line-height: 16px;
+  align-items: center;
+}
+.label3 {
+  height: 16px;
+  width: 29px;
+  font-weight: 500;
+  display: flex;
+}
+.number3 {
+  width: 24px;
+  display: none;
+  flex-shrink: 0;
+}
+.trailingIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.chip {
+  border-radius: var(--br-20xl);
+  background-color: var(--grey-light-200);
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.div {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  line-height: 20px;
+  font-weight: 500;
+}
+.chips,
+.container,
+.fieldText {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chips {
+  display: none;
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-5xs);
+  font-size: var(--text-small-12-bold-size);
+  font-family: var(--text-medium-16-medium);
+}
+.container,
+.fieldText {
+  flex: 1;
+  display: flex;
+}
+.container {
+  height: 24px;
+  gap: var(--gap-base);
+}
+.fieldText {
+  background-color: var(--white);
+  border: 0.8px solid var(--grey-grey-dark);
+  overflow: hidden;
+  padding: var(--padding-sm) var(--padding-5xs) var(--padding-sm)
+    var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.filterOptionList,
+.price,
+.priceInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceInput {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+  color: var(--black);
+}
+.filterOptionList,
+.price {
+  width: 406px;
+  max-width: 100%;
+}
+.price {
+  height: 122px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.filterOptionList {
+  flex-direction: row;
+  gap: var(--gap-21xl);
+}
+.check {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label7 {
+  width: 33px;
+  position: relative;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.container2 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkbox,
+.container2,
+.label8 {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  width: 229px;
+  height: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.label8 {
+  width: 92px;
+  position: relative;
+  line-height: 16px;
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label15,
+.label16,
+.label9 {
+  width: 54px;
+  position: relative;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label15,
+.label16 {
+  width: 198px;
+}
+.label11,
+.label12,
+.label13,
+.label14,
+.label15,
+.label16 {
+  width: 192px;
+}
+.label12,
+.label13,
+.label14,
+.label15,
+.label16 {
+  width: 103px;
+}
+.label13,
+.label14,
+.label15,
+.label16 {
+  width: 58px;
+}
+.label14,
+.label15,
+.label16 {
+  width: 80px;
+}
+.label15,
+.label16 {
+  width: 47px;
+}
+.label16 {
+  width: 86px;
+}
+.iconCheck1 {
+  width: 16px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  height: 16px;
+  display: none;
+}
+.check10,
+.label17 {
+  display: flex;
+  align-items: center;
+}
+.check10 {
+  width: 20px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--black);
+  box-sizing: border-box;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-12xs) var(--padding-11xs);
+}
+.label17 {
+  height: 16px;
+  width: 93px;
+  position: relative;
+  line-height: 16px;
+}
+.checkbox10 {
+  width: 229px;
+  height: 20px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label18,
+.label19 {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+.label18 {
+  width: 121px;
+  position: relative;
+  line-height: 16px;
+}
+.label19 {
+  width: 107px;
+}
+.label19,
+.label20,
+.label21 {
+  position: relative;
+  line-height: 16px;
+}
+.label20 {
+  height: 16px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+}
+.label21 {
+  width: 101px;
+}
+.label21,
+.label22,
+.label23 {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+.label22 {
+  width: 58px;
+  position: relative;
+  line-height: 16px;
+}
+.label23 {
+  width: 39px;
+}
+.label23,
+.label24,
+.more {
+  position: relative;
+  line-height: 16px;
+}
+.label24 {
+  height: 16px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+}
+.more {
+  display: inline-block;
+  min-width: 39px;
+}
+.checkboxParent,
+.facilitiesMore,
+.outdoor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facilitiesMore {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  color: var(--grey-grey-dark);
+}
+.checkboxParent,
+.outdoor {
+  align-self: stretch;
+  gap: var(--gap-4xl);
+}
+.checkboxParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: var(--black);
+  font-family: var(--text-normal-14-regular);
+}
+.outdoor {
+  flex-direction: column;
+}
+.label26 {
+  height: 16px;
+  width: 61px;
+  position: relative;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.checkbox19 {
+  width: 189px;
+  height: 20px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label27,
+.label28 {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+.label27 {
+  width: 68px;
+  position: relative;
+  line-height: 16px;
+}
+.label28 {
+  width: 83px;
+}
+.label28,
+.more2 {
+  position: relative;
+  line-height: 16px;
+}
+.moreGroup {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--grey-grey-dark);
+}
+.filterContent,
+.filterOptionListParent {
+  align-self: stretch;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.filterOptionListParent {
+  background-color: var(--white);
+  flex-shrink: 0;
+  font-size: var(--text-medium-16-medium-size);
+  font-family: var(--text-s-light);
+}
+.filterContent {
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.label33 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+}
+.label34 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 140%;
+}
+.vectorIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons1 {
+  flex: 1;
+  background-color: var(--color-aqua-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.bottom {
+  width: 470px;
+  box-shadow: 0-12px 44px rgba(0, 0, 0, 0.08);
+  background-color: var(--white);
+  border-top: 1px solid var(--grey-200);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-13xl) var(--padding-13xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--text-medium-16-medium-size);
+  font-family: var(--text-s-light);
+}
+.filters,
+.kennedysVillasList {
+  height: 1024px;
+  background-color: var(--white);
+}
+.filters {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 32px 20px 76px rgba(0, 0, 0, 0.09);
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--title-xxs-size);
+  color: var(--grey-black);
+  font-family: var(--text-m-regular);
+}
+.kennedysVillasList {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--black);
+  font-family: var(--text-medium-16-medium);
+}
+@media screen and (max-width: 1225px) {
+  .tagsParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .tags {
+    flex-wrap: wrap;
+  }
+  .price {
+    height: auto;
+  }
+  .filterOptionList {
+    flex-wrap: wrap;
+  }
+  .kennedysVillasList {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 750px) {
+  .filters1 {
+    font-size: var(--text-medium-16-medium-size);
+    line-height: 26px;
+  }
+  .filtersTop {
+    flex-wrap: wrap;
+  }
+  .minPlaceholder {
+    width: 100%;
+    height: 9px;
+  }
+  .chips,
+  .container {
+    flex-wrap: wrap;
+  }
+  .filterContent {
+    height: auto;
+  }
+}

@@ -1,0 +1,302 @@
+.kennedysVillasChild,
+.kennedysVillasItem {
+  position: absolute;
+  top: 194px;
+  left: 0;
+  background-color: var(--grey-200);
+  width: 1440px;
+  height: 715px;
+}
+.kennedysVillasItem {
+  top: 0;
+  background-color: var(--sand);
+  height: 6px;
+}
+.kennedysVillasInner {
+  position: absolute;
+  top: 109px;
+  left: 0;
+  width: 1440px;
+  height: 572px;
+  object-fit: cover;
+}
+.unionIcon {
+  position: absolute;
+  height: 0.98%;
+  top: 39.77%;
+  bottom: 59.26%;
+  left: calc(50% - 28px);
+  max-height: 100%;
+  width: 55.3px;
+}
+.text {
+  height: 24px;
+  width: 352px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.dropdownListItem,
+.dropdownListItem1 {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdownListItem1 {
+  background-color: var(--grey-lighter-150);
+}
+.dropdownMenu,
+.menuItems {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 799px;
+  left: 211px;
+  box-shadow: var(--shadow-lighter);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-grey-400);
+  box-sizing: border-box;
+  width: 384px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  color: var(--black);
+}
+.textForDescription {
+  position: absolute;
+  top: calc(50% - 2257px);
+  left: calc(50% - 571px);
+  font-size: var(--text-small-12-bold-size);
+  line-height: 20px;
+  color: var(--secondary-30);
+  display: none;
+  width: 230px;
+}
+.text8 {
+  width: 230px;
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.errorMessage1,
+.iconClose {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.errorMessage1 {
+  height: 22px;
+  width: 206px;
+  line-height: 22px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.errorMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-dark-600);
+}
+.errorMessage,
+.explanatoryText,
+.successMessage {
+  width: 230px;
+  justify-content: flex-start;
+}
+.successMessage {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--green-main-500);
+}
+.explanatoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.counter {
+  height: 22px;
+  width: 26px;
+  position: relative;
+  line-height: 22px;
+  text-align: right;
+  display: inline-block;
+}
+.helperText {
+  position: absolute;
+  top: 620px;
+  left: 149px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--text-s-light-size);
+  color: var(--grey-main-500);
+}
+.frameSection {
+  position: absolute;
+  top: 192px;
+  left: calc(50% - 546px);
+  width: 1092px;
+  height: 134px;
+}
+.getInTouch,
+.luxuryVacationRentals,
+.villasAndChalets {
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+}
+.villasAndChalets {
+  margin: 0;
+  top: 439px;
+  left: calc(50% - 227px);
+  font-size: var(--title-xs-size);
+  line-height: 122%;
+  font-weight: 400;
+  font-family: var(--text-s-light);
+  display: inline-block;
+  width: 453px;
+}
+.getInTouch,
+.luxuryVacationRentals {
+  top: 387px;
+  left: calc(50% - 264px);
+  font-size: var(--font-size-lg);
+  line-height: 22px;
+  font-family: var(--font-gt-super-txt-trial);
+  display: none;
+  width: 528px;
+  height: 59px;
+}
+.luxuryVacationRentals {
+  top: 246px;
+  left: calc(50% - 487px);
+  font-size: var(--font-size-81xl);
+  letter-spacing: -0.04em;
+  line-height: 88%;
+  font-family: var(--text-s-light);
+  color: var(--white);
+  display: inline-block;
+  width: 975px;
+  height: 242px;
+}
+.label {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 19px;
+}
+.vectorIcon {
+  height: 11px;
+  width: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.buttons {
+  position: absolute;
+  top: 445px;
+  left: calc(50% - 113px);
+  background-color: var(--color-aqua-100);
+  width: 218px;
+  height: 52px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: center;
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+.socialIconsChild {
+  position: absolute;
+  top: 177px;
+  left: 12.3px;
+  width: 0.8px;
+  height: 108px;
+}
+.iconBrandFacebookColor,
+.iconLinkedin {
+  width: 26.6px;
+  height: 26.6px;
+  position: relative;
+}
+.iconLinkedin {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg-9);
+}
+.socialIcons {
+  position: absolute;
+  top: 707px;
+  left: 1378px;
+  width: 26.6px;
+  height: 313px;
+}
+.kennedysVillas {
+  width: 100%;
+  height: 5658px;
+  position: relative;
+  background-color: var(--white);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--text-medium-16-medium-size);
+  color: var(--white);
+  font-family: var(--text-medium-16-medium);
+}
+@media screen and (max-width: 1350px) {
+  .kennedysVillas {
+    height: auto;
+    min-height: 5658;
+  }
+}
+@media screen and (max-width: 800px) {
+  .luxuryVacationRentals {
+    font-size: var(--font-size-31xl);
+    line-height: 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .villasAndChalets {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .luxuryVacationRentals {
+    font-size: var(--font-size-11xl);
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,52 @@
+.label1 {
+  height: 24px;
+  width: 42px;
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.5px;
+  line-height: 140%;
+  font-family: var(--text-s-light);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.optional {
+  position: relative;
+  line-height: 22px;
+  color: var(--secondary-30);
+}
+.iconInfo1,
+.mandatory {
+  position: relative;
+  height: 18px;
+}
+.mandatory {
+  width: 8px;
+  line-height: 18px;
+  display: inline-block;
+  color: var(--red-600);
+  flex-shrink: 0;
+}
+.iconInfo1 {
+  width: 18px;
+}
+.iconInfo,
+.label {
+  height: 18px;
+  width: 423px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.label {
+  width: 479px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--text-s-light-size);
+  color: var(--black);
+  font-family: var(--text-normal-14-regular);
+}

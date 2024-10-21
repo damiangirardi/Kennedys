@@ -1,0 +1,40 @@
+.iconPlus,
+.label {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.label {
+  height: 18px;
+  width: 38px;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.5px;
+  line-height: 140%;
+  font-family: var(--text-s-light);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.buttons,
+.container {
+  height: 18px;
+  width: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-198xl);
+  background-color: var(--sand);
+  width: 479px;
+  height: 44px;
+  border-radius: var(--br-9xs);
+  align-items: center;
+  justify-content: center;
+}

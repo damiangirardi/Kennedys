@@ -1,0 +1,302 @@
+.priceBackground {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  background-color: var(--grey-200);
+  width: 1440px;
+  height: 667px;
+}
+.priceAvailability,
+.priceAvailability1 {
+  position: absolute;
+  top: 91px;
+  left: 639px;
+  background-color: var(--white);
+  border: 0.5px solid var(--grey-grey-dark);
+  box-sizing: border-box;
+  width: 699px;
+  height: 559px;
+}
+.priceAvailability1 {
+  left: 136px;
+  width: 475px;
+}
+.groundFloor {
+  margin: 0;
+  width: 188px;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+.openPlanLiving {
+  margin-bottom: 11px;
+}
+.openPlanLivingDiningArea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.openPlanLivingContainer {
+  position: relative;
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--grey-black);
+}
+.block {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.span {
+  text-transform: uppercase;
+}
+.stFloor1 {
+  font-size: var(--title-xs-size);
+}
+.stFloor {
+  height: 32px;
+  position: relative;
+  line-height: 46px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  min-width: 118px;
+}
+.block1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-17xl);
+}
+.lowerFloor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.row {
+  position: absolute;
+  top: 208px;
+  left: 107px;
+  width: 467px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+  font-size: var(--title-xs-size);
+  color: var(--grey-grey-dark);
+}
+.availability,
+.pricesnight,
+.theVilla {
+  margin: 0;
+  position: absolute;
+  top: 138px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.theVilla {
+  left: 184px;
+  text-align: center;
+  display: inline-block;
+  min-width: 112px;
+}
+.availability,
+.pricesnight {
+  left: 728px;
+}
+.availability {
+  left: 946px;
+  color: var(--grey-grey);
+}
+.span1 {
+  font-size: var(--text-medium-16-medium-size);
+  letter-spacing: 0.5px;
+}
+.dates,
+.price {
+  position: relative;
+}
+.dates {
+  height: 44px;
+  line-height: 44px;
+  display: inline-block;
+}
+.price {
+  margin: 0;
+  font-size: inherit;
+  line-height: 122%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+}
+.block3,
+.priceDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceDetails {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.block3 {
+  position: absolute;
+  top: 203px;
+  left: 728px;
+  width: 559.5px;
+  flex-direction: column;
+  font-size: var(--title-xs-size);
+  color: var(--grey-grey-dark);
+}
+.may {
+  margin: 0;
+}
+.may0116JuneContainer,
+.nights5nights6nightsContainer {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 273%;
+  display: inline-block;
+}
+.may0116JuneContainer {
+  flex: 1;
+  min-width: 118px;
+}
+.nights5nights6nightsContainer {
+  width: 157px;
+  flex-shrink: 0;
+}
+.block4,
+.priceDetails1,
+.row1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceDetails1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.block4,
+.row1 {
+  flex-direction: column;
+}
+.block4 {
+  align-self: stretch;
+}
+.row1 {
+  position: absolute;
+  top: 263px;
+  left: 728px;
+  width: 559.5px;
+  max-width: 100%;
+  font-size: var(--text-medium-16-medium-size);
+}
+.priceSeparatorChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--sand);
+  box-sizing: border-box;
+}
+.descriptionTitleSeparator,
+.priceSeparator {
+  position: absolute;
+  top: 174px;
+  left: 665px;
+  width: 654px;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.descriptionTitleSeparator {
+  left: 160px;
+  width: 427px;
+}
+.villaPricingChild {
+  position: absolute;
+  top: 0;
+  left: 1113px;
+  width: 140.8px;
+  height: 140.8px;
+  object-fit: contain;
+}
+.villaPricing {
+  position: absolute;
+  top: 4218px;
+  left: 0;
+  width: 100%;
+  height: 681px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--grey-black);
+  font-family: var(--text-s-light);
+}
+@media screen and (max-width: 1050px) {
+  .availability,
+  .pricesnight,
+  .theVilla {
+    font-size: var(--title-xs-size);
+    line-height: 19px;
+  }
+  .priceDetails,
+  .priceDetails1 {
+    flex-wrap: wrap;
+  }
+  .villaPricing {
+    height: auto;
+    min-height: 681;
+  }
+}
+@media screen and (max-width: 750px) {
+  .groundFloor {
+    line-height: 23px;
+  }
+  .groundFloor,
+  .lowerFloor,
+  .stFloor {
+    font-size: var(--font-size-lgi);
+  }
+  .lowerFloor {
+    line-height: 23px;
+  }
+  .availability,
+  .pricesnight,
+  .theVilla {
+    font-size: var(--font-size-lg);
+    line-height: 14px;
+  }
+  .price {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+}
